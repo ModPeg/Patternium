@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "patternium",
+  "version": "${version}",
+  "name": "Patternium",
+  "description": "Bulk-craft by Ctrl+Shift+Click on the crafting result.",
+  "authors": [
+    "ModPeg"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/patternium",
+    "sources": "https://github.com/ModPeg/Patternium"
+  },
+  "license": "MIT",
+  "icon": "assets/patternium/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.patternium.mod.PatterniumMod"
+    ]
+  },
+  "mixins": [
+    "mixins.patternium.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": ">=0.154.0",
+    "minecraft": "26.1",
+    "java": ">=25"
+  }
+}

@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+**/.gradle/
+build/
+**/build/
+**/bin/
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# Gradle caches inside project dirs
+**/loom-cache/
+**/buildOutputCleanup/
+**/vcs-*/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.class
+.project
+.classpath
+.factorypath
+.settings/
+**/.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+
+
